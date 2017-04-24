@@ -9,6 +9,28 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var text1: UILabel!
+    
+    @IBOutlet weak var text2: UILabel!
+    var a:Int = 0
+    
+    @IBAction func leftjia(_ sender: Any) {
+       a=a+1
+        text1.text=a
+        
+        
+    }
+    
+    @IBAction func leftjian(_ sender: Any) {
+    }
+    
+    @IBAction func rightjai(_ sender: Any) {
+    }
+    
+    @IBAction func rightjian(_ sender: Any) {
+    }
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()

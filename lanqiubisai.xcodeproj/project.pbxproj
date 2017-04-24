@@ -14,8 +14,9 @@
 		F301C1CC1E88B1A2005FBD3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F301C1CA1E88B1A2005FBD3A /* LaunchScreen.storyboard */; };
 		F301C1D71E88B1A3005FBD3A /* lanqiubisaiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F301C1D61E88B1A3005FBD3A /* lanqiubisaiTests.swift */; };
 		F301C1E21E88B1A3005FBD3A /* lanqiubisaiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F301C1E11E88B1A3005FBD3A /* lanqiubisaiUITests.swift */; };
-		F31E3A671E8B59530017C949 /* u=1996270602,3477189998&fm=23&gp=0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F31E3A661E8B59530017C949 /* u=1996270602,3477189998&fm=23&gp=0.jpg */; };
-		F31E3A691E8B5EC00017C949 /* 哈登.png in Resources */ = {isa = PBXBuildFile; fileRef = F31E3A681E8B5EC00017C949 /* 哈登.png */; };
+		F318B4DE1E9492B200C10353 /* 兵乓 .jpg in Resources */ = {isa = PBXBuildFile; fileRef = F318B4DD1E9492B200C10353 /* 兵乓 .jpg */; };
+		F318B4E41E949FF000C10353 /* zhang.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F318B4E31E949FF000C10353 /* zhang.jpg */; };
+		F318B4E61E949FF700C10353 /* malong.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F318B4E51E949FF700C10353 /* malong.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,8 +50,9 @@
 		F301C1DD1E88B1A3005FBD3A /* lanqiubisaiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lanqiubisaiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F301C1E11E88B1A3005FBD3A /* lanqiubisaiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lanqiubisaiUITests.swift; sourceTree = "<group>"; };
 		F301C1E31E88B1A3005FBD3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F31E3A661E8B59530017C949 /* u=1996270602,3477189998&fm=23&gp=0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "u=1996270602,3477189998&fm=23&gp=0.jpg"; path = "../../u=1996270602,3477189998&fm=23&gp=0.jpg"; sourceTree = "<group>"; };
-		F31E3A681E8B5EC00017C949 /* 哈登.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "哈登.png"; path = "../../哈登.png"; sourceTree = "<group>"; };
+		F318B4DD1E9492B200C10353 /* 兵乓 .jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "兵乓 .jpg"; path = "../../兵乓 .jpg"; sourceTree = "<group>"; };
+		F318B4E31E949FF000C10353 /* zhang.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = zhang.jpg; path = ../../zhang.jpg; sourceTree = "<group>"; };
+		F318B4E51E949FF700C10353 /* malong.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = malong.jpg; path = ../../malong.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +103,9 @@
 		F301C1C01E88B1A2005FBD3A /* lanqiubisai */ = {
 			isa = PBXGroup;
 			children = (
-				F31E3A681E8B5EC00017C949 /* 哈登.png */,
-				F31E3A661E8B59530017C949 /* u=1996270602,3477189998&fm=23&gp=0.jpg */,
+				F318B4E51E949FF700C10353 /* malong.jpg */,
+				F318B4E31E949FF000C10353 /* zhang.jpg */,
+				F318B4DD1E9492B200C10353 /* 兵乓 .jpg */,
 				F301C1C11E88B1A2005FBD3A /* AppDelegate.swift */,
 				F301C1C31E88B1A2005FBD3A /* ViewController.swift */,
 				F301C1C51E88B1A2005FBD3A /* Main.storyboard */,
@@ -238,11 +241,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F31E3A691E8B5EC00017C949 /* 哈登.png in Resources */,
 				F301C1CC1E88B1A2005FBD3A /* LaunchScreen.storyboard in Resources */,
+				F318B4E41E949FF000C10353 /* zhang.jpg in Resources */,
 				F301C1C91E88B1A2005FBD3A /* Assets.xcassets in Resources */,
+				F318B4E61E949FF700C10353 /* malong.jpg in Resources */,
+				F318B4DE1E9492B200C10353 /* 兵乓 .jpg in Resources */,
 				F301C1C71E88B1A2005FBD3A /* Main.storyboard in Resources */,
-				F31E3A671E8B59530017C949 /* u=1996270602,3477189998&fm=23&gp=0.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
