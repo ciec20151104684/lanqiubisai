@@ -13,11 +13,26 @@ class ViewController: UIViewController {
     @IBOutlet weak var text1: UILabel!
     
     @IBOutlet weak var text2: UILabel!
+    
+    @IBOutlet weak var text3: UILabel!
+    
+    @IBOutlet weak var text4: UILabel!
     var a:Int = 0
     var b:Int = 0
+    var c:Int = 0
+    var d:Int = 0
     @IBAction func leftjia(_ sender: Any) {
        a=a+1
         text1.text=("\(a)");
+        if (a >= 11 && a>=2+b  )
+        {
+            c=c+1
+            text3.text=("\(c)");
+            a=0;
+            b=0;
+            text1.text=("\(a)");
+            text2.text=("\(b)");
+        }
         
         
     }
@@ -30,6 +45,16 @@ class ViewController: UIViewController {
     @IBAction func rightjai(_ sender: Any) {
         b=b+1
         text2.text=("\(b)");
+        
+        if (b >= 11 && b>=2+a  )
+        {
+            d=d+1
+            text4.text=("\(d)");
+            a=0;
+            b=0;
+            text1.text=("\(a)");
+            text2.text=("\(b)");
+        }
     }
     
     @IBAction func rightjian(_ sender: Any) {

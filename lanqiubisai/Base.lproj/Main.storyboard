@@ -81,6 +81,22 @@
                                     <action selector="leftjia:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pi1-Me-5m7"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="niL-dy-Rkq">
+                                <rect key="frame" x="118" y="547" width="42" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.28631354269999998" blue="0.9602863559" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6rt-6D-wjx">
+                                <rect key="frame" x="179" y="547" width="42" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.28631354269999998" blue="0.9602863559" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" red="0.21892658778876128" green="0.77433373518068938" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -88,6 +104,8 @@
                     <connections>
                         <outlet property="text1" destination="hyn-as-2Iv" id="qQx-zS-Yey"/>
                         <outlet property="text2" destination="fNh-7j-nld" id="ZeG-mc-asq"/>
+                        <outlet property="text3" destination="niL-dy-Rkq" id="OpL-03-xs0"/>
+                        <outlet property="text4" destination="6rt-6D-wjx" id="wzG-7a-2yz"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
