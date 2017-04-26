@@ -9,26 +9,32 @@
 import UIKit
 
 class ViewController: UIViewController {
-    
+
     @IBOutlet weak var text1: UILabel!
     
     @IBOutlet weak var text2: UILabel!
     var a:Int = 0
-    
+    var b:Int = 0
     @IBAction func leftjia(_ sender: Any) {
        a=a+1
-        text1.text=a
+        text1.text=("\(a)");
         
         
     }
     
     @IBAction func leftjian(_ sender: Any) {
+        a=a-1
+        text1.text=("\(a)");
     }
     
     @IBAction func rightjai(_ sender: Any) {
+        b=b+1
+        text2.text=("\(b)");
     }
     
     @IBAction func rightjian(_ sender: Any) {
+        b=b-1
+        text2.text=("\(b)");
     }
     
 
