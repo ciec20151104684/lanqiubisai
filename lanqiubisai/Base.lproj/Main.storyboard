@@ -21,18 +21,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="兵乓 .jpg" translatesAutoresizingMaskIntoConstraints="NO" id="AUf-c7-dNa">
-                                <rect key="frame" x="0.0" y="187" width="375" height="275"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="zhang.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="2cf-1O-GzA">
-                                <rect key="frame" x="27" y="20" width="142" height="123"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="malong.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="3Kp-Ca-8Tf">
-                                <rect key="frame" x="209" y="20" width="150" height="123"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fNh-7j-nld">
                                 <rect key="frame" x="222" y="494" width="89" height="89"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -97,11 +85,42 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YsK-fH-OM7">
+                                <rect key="frame" x="33" y="20" width="140" height="123"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lMC-gF-rZ9">
+                                <rect key="frame" x="83" y="151" width="62" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="上传图片"/>
+                                <connections>
+                                    <action selector="photo1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XV3-BR-daX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MSf-ww-SE3">
+                                <rect key="frame" x="257" y="149" width="62" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="上传图片"/>
+                                <connections>
+                                    <action selector="photo2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SDC-Dz-B8m"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8wM-iH-ecp">
+                                <rect key="frame" x="215" y="20" width="144" height="126"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="兵乓 .jpg" translatesAutoresizingMaskIntoConstraints="NO" id="yYd-ts-JwI">
+                                <rect key="frame" x="57" y="233" width="286" height="200"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" red="0.21892658778876128" green="0.77433373518068938" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <connections>
+                        <outlet property="photo1" destination="lMC-gF-rZ9" id="WtH-PF-sF0"/>
+                        <outlet property="phototwo" destination="8wM-iH-ecp" id="IiB-En-IVp"/>
+                        <outlet property="phtotoone" destination="YsK-fH-OM7" id="YAq-4G-J98"/>
                         <outlet property="text1" destination="hyn-as-2Iv" id="qQx-zS-Yey"/>
                         <outlet property="text2" destination="fNh-7j-nld" id="ZeG-mc-asq"/>
                         <outlet property="text3" destination="niL-dy-Rkq" id="OpL-03-xs0"/>
@@ -114,8 +133,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="malong.jpg" width="237" height="236"/>
-        <image name="zhang.jpg" width="200" height="300"/>
         <image name="兵乓 .jpg" width="423" height="300"/>
     </resources>
 </document>
